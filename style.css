@@ -1,0 +1,25 @@
+
+:root {
+    --background-color: #BBBBBB;
+    --text-color: #333333;
+    --main-font: monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #333333;
+        --text-color: #BBBBBB;
+    }
+}
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--main-font);
+    font-weight:bold;
+}
+
+h1 {
+    color: #CC44CC;
+}
